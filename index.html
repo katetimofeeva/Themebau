@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Themebau</title>
+        <link rel="stylesheet" href="styles/main.css" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-container">
+                    <div class="header-container-logo">
+                        <a href="/">
+                            <img src="./images/Themebau..svg" alt="logo" />
+                        </a>
+                    </div>
+                    <div class="header-container-nav">
+                        <nav>
+                            <ul class="header-container-nav-link">
+                                <li><a href="/">home</a></li>
+                                <li>
+                                    <a href="/pages/project.html">projects</a>
+                                </li>
+                                <li><a href="/pages/blog.html">blog</a></li>
+                                <li><a href="#">contact</a></li>
+                            </ul>
+                        </nav>
+                        <div>
+                            <ul class="header-container-nav-icon">
+                                <li>
+                                    <a href="#">
+                                        <img
+                                            src="./images/facebook.svg"
+                                            alt="facebook"
+                                        />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img
+                                            src="./images/twitter.svg"
+                                            alt="twitter"
+                                        />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img
+                                            src="./images/instagram.svg"
+                                            alt="instagram"
+                                        />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="burger">
+                        <img src="images/burger.svg" alt="Burger Icon" />
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <div class="slider-wrapper">
+                        <div class="slider">
+                            <button onclick="prevSlide()">
+                                <img
+                                    src="./images/arrow left.svg"
+                                    alt="previous"
+                                />
+                            </button>
+                            <div class="slide">
+                                <h1>
+                                    Colibri
+                                    <br />
+                                    Creative Project
+                                </h1>
+                                <div class="circle">
+                                    <p>view</p>
+                                </div>
+                                <div class="counter">
+                                    <span class="counter-currenr">01</span>
+                                    <p></p>
+                                    <span class="counter-total">03</span>
+                                </div>
+                            </div>
+                            <button onclick="nextSlide()">
+                                <img
+                                    src="./images/arrow right.svg"
+                                    alt="next"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about-us">
+                <div class="container">
+                    <div class="about-us-info">
+                        <h4 class="about-us-title">who we are</h4>
+                        <h1 class="about-us-main-title">
+                            An award-winning design & dev team
+                            <br />
+                            that is proud of our work
+                            <span>👋</span>
+                        </h1>
+                        <div class="about-us-description">
+                            <p class="about-us-description-experience">
+                                Over 10 years of combined experience, and know a
+                                thing or two about designing websites and mobile
+                                apps.
+                            </p>
+                            <div class="about-us-description-life">
+                                <p>
+                                    Were divided, a moved night light darkness
+                                    winged may also make man for. Winged the for
+                                    Earth creeping appear evening, gathered
+                                    Forth so he. Life that dry of created
+                                    greater can't also gathered female green.
+                                </p>
+                                <div class="button-icon-wrapper">
+                                    <button>about us</button>
+                                    <img
+                                        src="./images/ellipse.svg"
+                                        alt="icon"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-us-container">
+                        <div class="about-us-item first">
+                            <img
+                                class="about-us-item-icon"
+                                src="./images/cup-icon.svg"
+                                alt="Web Design and Development"
+                            />
+                            <p class="about-us-item-text">
+                                Web Design and
+                                <br />
+                                Development
+                            </p>
+                        </div>
+                        <div class="about-us-item second">
+                            <img
+                                class="about-us-item-icon"
+                                src="./images/settings-icon.svg"
+                                alt="Brand Strategy Accelerator"
+                            />
+                            <p class="about-us-item-text">
+                                Brand Strategy Accelerator
+                            </p>
+                        </div>
+                        <div class="about-us-item third">
+                            <img
+                                class="about-us-item-icon"
+                                src="./images/anchor-icon.svg"
+                                alt="Packaging and Brand Identity"
+                            />
+                            <p class="about-us-item-text">
+                                Packaging and Brand Identity
+                            </p>
+                        </div>
+                        <div class="about-us-item fourth">
+                            <img
+                                class="about-us-item-icon"
+                                src="./images/book-icon.svg"
+                                alt="Content Production"
+                            />
+                            <p class="about-us-item-text">Content Production</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="work-wrapper">
+                        <h1>
+                            Featured
+                            <br />
+                            work
+                        </h1>
+                        <p></p>
+                        <div class="button-icon-wrapper">
+                            <button>all work</button>
+                            <img src="./images/ellipse.svg" alt="icon" />
+                        </div>
+                    </div>
+                    <div class="work-container">
+                        <div class="work-item">
+                            <article class="work-item-small-photo mt">
+                                <img
+                                    class="small-photo"
+                                    src="./images/dog.jpg"
+                                    alt="Funny Dog"
+                                />
+                                <h3>Funny Dog</h3>
+                                <p>photography</p>
+                            </article>
+                            <article>
+                                <img
+                                    class="big-photo"
+                                    src="./images/mobile.jpg"
+                                    alt="Mobile App"
+                                />
+                                <h3>Mobile App</h3>
+                                <p>design</p>
+                            </article>
+                        </div>
+                        <div class="work-item second-card">
+                            <article>
+                                <img
+                                    class="big-photo"
+                                    src="./images/creative.jpg"
+                                    alt="Creative Branding"
+                                />
+                                <h3>Creative Branding</h3>
+                                <p>branding</p>
+                                <div class="circle">
+                                    <p>view</p>
+                                </div>
+                            </article>
+                            <article class="work-item-small-photo">
+                                <img
+                                    class="small-photo"
+                                    src="./images/watch.jpg"
+                                    alt="Watch Design"
+                                />
+                                <h3>Watch Design</h3>
+                                <p>design</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="work-process-wrapper">
+                        <h1 class="work-process-title">Work process</h1>
+                        <div class="work-process-info">
+                            <div class="work-process-info-left">
+                                <div class="work-process-info-left-header">
+                                    <h3>Search an Idea</h3>
+                                    <!-- <p>01</p> -->
+                                </div>
+                                <ul>
+                                    <li>Design</li>
+                                    <li>Development</li>
+                                    <li>Release</li>
+                                </ul>
+                            </div>
+                            <div class="work-process-info-midl">
+                                <p class="work-process-info-midl-text">
+                                    God he their every blessed upon male earth
+                                    also midst fill creeping Seas their winged
+                                    can't shall signs sea mornings gathered
+                                    brought, creeping fruitful you'll open there
+                                    bearing.
+                                </p>
+                                <div class="button-icon-wrapper white">
+                                    <button class="btn-white">read more</button>
+                                    <img
+                                        src="./images/ellipse.svg"
+                                        alt="icon"
+                                    />
+                                </div>
+                            </div>
+                            <div class="work-process-info-right">
+                                <img
+                                    src="./images/process-icon_1.png"
+                                    alt="decorative element"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="create-section-wrapper">
+                        <div class="create-section-left">
+                            <img
+                                class="main-photo"
+                                src="./images/creative-section-people.jpg"
+                                alt="people"
+                            />
+                            <div class="secondary-photo">
+                                <div class="small"></div>
+                                <div class="big"></div>
+                            </div>
+                        </div>
+                        <div class="create-section-right">
+                            <h1>
+                                We create everything digital, printable and
+                                analytical 🔥
+                            </h1>
+                            <div class="create-section-right-info">
+                                <p>
+                                    Won't seasons, appear days them stars
+                                    replenish divided. All second forth. Him
+                                    place was seas man and gathering creepeth
+                                    called fly. Them sea place lights, midst
+                                    bearing fourth above.
+                                </p>
+                                <div class="button-icon-wrapper">
+                                    <button>about us</button>
+                                    <img
+                                        src="./images/ellipse.svg"
+                                        alt="icon"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="sixth-section">
+                        <h1 class="values-section-title">Values</h1>
+                        <div class="values-cards-wrapper">
+                            <div class="values-card-item">
+                                <img
+                                    src="./images/quality-icon.svg"
+                                    alt="Excellent Quality"
+                                />
+                                <div class="values-card-item-info">
+                                    <h3>Excellent Quality</h3>
+                                    <p>
+                                        Forth forth moveth shall i unto midst
+                                        tree, a fruit great subdue a every be so
+                                        a fowl.
+                                    </p>
+                                    <div>
+                                        <button type="button">read more</button>
+                                        <img
+                                            src="./images/Vector.svg"
+                                            alt="read more"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="values-card-item">
+                                <img
+                                    src="./images/customer-icon.svg"
+                                    alt="Customer Service"
+                                />
+                                <div class="values-card-item-info">
+                                    <h3>Customer Service</h3>
+                                    <p>
+                                        Be saying moveth spirit fruitful called
+                                        set evening fly give shall moveth lesser
+                                        very.
+                                    </p>
+                                    <div>
+                                        <button
+                                            class="card-item-btn"
+                                            type="button"
+                                        >
+                                            read more
+                                        </button>
+                                        <img
+                                            src="./images/Vector.svg"
+                                            alt="read more"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="values-card-item">
+                                <img
+                                    src="./images/people-icon.svg"
+                                    alt="The best People"
+                                />
+                                <div class="values-card-item-info">
+                                    <h3>The best People</h3>
+                                    <p>
+                                        Heaven to bearing that yielding and man.
+                                        Brought over shall fill over blessed, he
+                                        appear.
+                                    </p>
+                                    <div>
+                                        <button type="button">read more</button>
+                                        <img
+                                            src="./images/Vector.svg"
+                                            alt="read more"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="footer-main-info">
+                    <div class="footer-main-info-left">
+                        <h1>Themebau.</h1>
+                        <p>
+                            Be saying moveth spirit fruitful called set evening
+                            fly give shall moveth lesser very.
+                        </p>
+                        <div class="footer-contact">
+                            <ul class="header-container-nav-icon">
+                                <li>
+                                    <a href="#">
+                                        <img
+                                            src="./images/facebook.svg"
+                                            alt="facebook"
+                                        />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img
+                                            src="./images/twitter.svg"
+                                            alt="twitter"
+                                        />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img
+                                            src="./images/instagram.svg"
+                                            alt="instagram"
+                                        />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <span>© 2020 - RunWebRun.</span>
+                    </div>
+                    <div class="footer-link">
+                        <ul class="grid-container">
+                            <li>About us</li>
+                            <li>Services</li>
+                            <li>Our team</li>
+                            <li>Careers</li>
+                            <li>Work process</li>
+                            <li>FAQ</li>
+                            <li>Our blog</li>
+                            <li>Contacts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="modalMenu">
+            <div class="modal">
+                <button class="burger">
+                    <img src="images/burger.svg" alt="Burger Icon" />
+                </button>
+                <ul>
+                    <li><a href="/">home</a></li>
+                    <li><a href="/pages/project.html">projects</a></li>
+                    <li><a href="/pages/blog.html">blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <script src="main-menu.js"></script>
+    </body>
+</html>
